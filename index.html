@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Danmai</title>
+	 <style type="text/css">
+        .parent{
+            color: #fff;
+            font:24px/600px "Arial";
+            text-align: center;
+            display: flex; 
+            flex-flow: nowrap;
+        }
+        .side{
+            width: 200px;
+            background-color: #c00000;
+            float: left;
+        }
+        .main{          
+            margin-left: 10px;
+            background-color: #0000AA;
+            flex: 1;
+            float: right;
+            }
+        .button{
+                background-color:green;
+                cursor:pointer;
+                color:#ffffff;
+                font-family:Arial;
+                font-size:24px;
+                padding:20px 32px;
+                text-decoration:none;
+                        }
+        .button:hover{
+                background-color:#5cbf2a;
+        }
+        .button:active {
+        position:relative;
+        top:1px;
+        }     
+        }
+    </style>
+</head>
+<body>
+    <div class="parent"> 
+        <div class="side">Hi!</div>
+        <div class="main">This is Forksrepublic, welcome!
+        </br>
+        <button onclick="location='panic.html'" class="button">Don't panic</button>
+        <button onclick="location='blink.html'" class="button">Don't blink</button>
+
+</div>
+</body>
+</html>
